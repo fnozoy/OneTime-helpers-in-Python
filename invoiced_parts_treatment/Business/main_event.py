@@ -3,6 +3,7 @@ from datetime import datetime
 from invoiced_parts_treatment.DAO import wings_dao
 from invoiced_parts_treatment.Bean_TO.file_register import File_register
 
+#author: Fabio Nozoy - march/2021
 
 def processa():
     start_checkpoint = datetime.now()
