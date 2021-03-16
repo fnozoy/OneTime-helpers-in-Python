@@ -9,6 +9,7 @@ def connect_oracle():
 	password_x=decrypt('pass')
 	dsn_tns = cx_Oracle.makedsn(server, port, service_name=db) 
 	conn = cx_Oracle.connect(user=user_x, password=password_x, dsn=dsn_tns)
+	#no need to encapsulate conn with connection pool... this app runs alone
 	return conn
 
 def encrypt(message):
