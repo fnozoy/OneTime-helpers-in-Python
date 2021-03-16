@@ -6,6 +6,7 @@ def connect_sqlserver():
 	username = 'xx'
 	password = decrypt('xxx')
 	conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+	#no need to encapsulate conn with connection pool... this app runs alone
 	return conn
 
 def encrypt(message):
