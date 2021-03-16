@@ -35,3 +35,6 @@ DAO
 Bean_TO (transfer object)
     file_register
         Class Bean to Transfer Object giving input/output POPIMS txt flat file layout
+        
+unittest on Business
+    test_partnumber tests the 3 methods of partnumber conversion to aquire partnumber from different applications
