@@ -12,3 +12,7 @@ email: fnozoy@yahoo.com
 **#webscraping RPA app - solve problem of long hours to create a request on RACF website to decomission application**
   uses SELENIUM and attends 2 kinds of requests: profile and group delete
   
+**#ETL app - solve problem of extract data from DB2 and load into Oracle - Onetime only process**
+  loads 2 million rows in 20 minutes... preatty good
+  implements cx_oracle "executemany"
+  
