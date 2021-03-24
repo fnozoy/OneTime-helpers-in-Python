@@ -16,3 +16,4 @@ email: fnozoy@yahoo.com
   loads 2 million rows in 20 minutes... pretty good
   implements cx_oracle "executemany"
   
+**more projects comming soon**
